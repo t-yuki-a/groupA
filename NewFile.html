@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>ログイン</title>
+<link rel="stylesheet" type="text/css" href="NewFile.css" />
+</head>
+<body>
+<img alt="" src="C:\Users\2018NEC54\Desktop/sunseer.png"width="200" height = "80">
+<div id = "contents">
+<form method = "post" action =>
+<P >ユーザー　:
+<input type ="text" name = "name" class="name"></P>
+<p >パスワード:
+<input type = "password" name = "password" maxlength="12"class = "password"></p>
+</form>
+</div>
+<p>
+<input class = "button" type = "button"value="ログイン">
+</p>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script type="text/javascript">
+
+$(function(){
+
+	let id = "user";
+	let ps = "groupA";
+
+	$('.button').on("click",function(){
+		let id1 = $('.name').val();
+		let ps1 = $('.password').val();
+		alert("caoa");
+	if(id==id1&&ps==ps1){
+
+			location.href= "in.html";
+
+	}else{
+
+			alert("誤り！");
+	}
+
+	});
+});
+</script>
+</body>
+</html>

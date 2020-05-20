@@ -1,0 +1,105 @@
+@charset "UTF-8";
+.find {
+  display       : inline-block;
+  border-radius : 20%;          /* 角丸       */
+  font-size     : 18pt;        /* 文字サイズ */
+  text-align    : center;      /* 文字位置   */
+  cursor        : pointer;     /* カーソル   */
+  padding       : 13px 12px;   /* 余白       */
+  background    : #ff7f7f;     /* 背景色     */
+  color         : #ffffff;     /* 文字色     */
+  line-height   : 1em;         /* 1行の高さ  */
+  transition    : .3s;         /* なめらか変化 */
+  box-shadow    : 7px 7px 3px #666666;  /* 影の設定 */
+  border        : 2px solid #ff7f7f;    /* 枠の指定 */
+}
+.box {
+
+    margin: 0.8em 0;
+    font-weight: bold;
+    color: #6091d3;/*文字色*/
+    background: #FFF;
+    border: solid 3px #6091d3;/*線*/
+    border-radius: 10px;/*角の丸み*/
+}
+.box p {
+    margin: 0;
+    padding: 0;
+}
+
+.button:hover {
+  box-shadow    : none;        /* カーソル時の影消去 */
+  color         : #ff7f7f;     /* 背景色     */
+  background    : #ffffff;     /* 文字色     */
+}
+.logout{
+
+  display       : inline-block;
+  border-radius : 20%;          /* 角丸       */
+  font-size     : 13pt;        /* 文字サイズ */
+  text-align    : center;      /* 文字位置   */
+  cursor        : pointer;     /* カーソル   */
+  padding       : 13px 12px;   /* 余白       */
+  background    : #7f007f;     /* 背景色     */
+  color         : #ffffff;     /* 文字色     */
+  line-height   : 1.2em;         /* 1行の高さ  */
+  transition    : .3s;         /* なめらか変化 */
+  box-shadow    : 7px 7px 3px #666666;  /* 影の設定 */
+  border        : 2px solid #7f007f;    /* 枠の指定 */
+}
+.button:hover {
+  box-shadow    : none;        /* カーソル時の影消去 */
+  color         : #7f007f;     /* 背景色     */
+  background    : #ffffff;     /* 文字色     */
+}
+
+.plus{
+
+
+  display       : inline-block;
+  border-radius : 20%;          /* 角丸       */
+  font-size     : 18pt;        /* 文字サイズ */
+  text-align    : center;      /* 文字位置   */
+  cursor        : pointer;     /* カーソル   */
+  padding       : 13px 12px;   /* 余白       */
+  background    : #99ffcc;     /* 背景色     */
+  color         : #ffffff;     /* 文字色     */
+  line-height   : 1em;         /* 1行の高さ  */
+  transition    : .3s;         /* なめらか変化 */
+  box-shadow    : 7px 7px 3px #666666;  /* 影の設定 */
+  border        : 2px solid #99ffcc;    /* 枠の指定 */
+}
+.button:hover {
+  box-shadow    : none;        /* カーソル時の影消去 */
+  color         : #99ffcc;     /* 背景色     */
+  background    : #ffffff;     /* 文字色     */
+}
+/* --- テーブル全体のスタイル指定 --------------- */
+.table {
+  width          : 100%;             /* 100%幅     */
+  border-collapse: collapse;         /* 境界線結合 */
+  border-spacing : 0;                /* 罫線間余白 */
+  font-size      : 12pt;              /* 文字サイズ */
+  background     : #ffffff;          /* テーブル全体の背景色 */
+}
+ /* --- ヘッダーのスタイル指定 ------------------- */
+.table th {
+  text-align    : center;            /* 文字位置   */
+  font-weight   : bold;              /* 太文字     */
+  padding       : 0px 0px;           /* 余白       */
+  border        : 1px #666666 solid; /* 罫線       */
+  background    : #4da6ff;           /* 背景色     */
+}
+ /* --- 明細のスタイル指定 ----------------------- */
+.table td {
+  text-align    : center;            /* 文字位置   */
+  padding       : 0px 0px;           /* 余白       */
+  border        : 1px #666666 solid; /* 罫線       */
+}
+ /* --- 明細のｎ行スタイル指定 ------------------- */
+.table tr:nth-child(2n+1) {
+  background    : #b1d8ff;           /* 背景色     */
+}
+.table tr td:nth-child(10){
+	width:5px;
+}
